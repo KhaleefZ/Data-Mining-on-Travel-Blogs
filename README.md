@@ -6,9 +6,15 @@ Abstract:
 
 Concepts Implemented:
 •	Web-scrapping from website.
+
 •	Storing Text file.
+
 •	Calculating Precision, Recall and F-score.
+
 •	Sentiment Analysis.
+
 •	Generating Word Cloud.
+
 •	Content Mining.
+
 •	Keyword Search from user input.
