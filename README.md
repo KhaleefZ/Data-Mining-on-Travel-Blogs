@@ -5,6 +5,7 @@ Abstract:
 
 
 Concepts Implemented:
+
 •	Web-scrapping from website.
 
 •	Storing Text file.
