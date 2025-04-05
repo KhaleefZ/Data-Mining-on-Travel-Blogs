@@ -1,23 +1,56 @@
-# Data-Mining-on-Travel-Blogs
+# 🌍 Travel Blog Scraper 🧳✈️  
+**Your Personal Guide to Exploring the World Through Blogs**
 
-About the project:
-                  
-The Travel Blog Scraper Application is designed to help users easily access and analyze travel blog content related to a specific location. Built with Python, this application uses Tkinter for the graphical user interface, BeautifulSoup for web scraping, TextBlob for sentiment analysis, and WordCloud for data visualization. Users can input a location, scrape related blog posts, and save the content of a selected post. The app also generates word clouds, performs sentiment analysis, and provides metrics such as precision and recall using a pre-trained classifier. Additionally, it features content mining to highlight frequently used words and a keyword search function to find specific terms within the blog post. This tool simplifies the process of gathering and analyzing travel information from online blogs, making it useful for travelers and researchers.
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Tkinter GUI](https://img.shields.io/badge/Tkinter-GUI-blueviolet)
+![Web Scraping](https://img.shields.io/badge/Web--Scraping-BeautifulSoup-brightgreen)
+![NLP](https://img.shields.io/badge/NLP-TextBlob-orange)
+
+---
+
+## 📌 Overview
+
+**Travel Blog Scraper** is a user-friendly desktop application that scrapes travel blogs from [Nomadic Matt](https://www.nomadicmatt.com) based on user input and performs intelligent content analysis. With just a location name, you can:
+
+- ✨ Extract blog titles and links
+- 💾 Save full blog content as text
+- 🌥 Generate word clouds
+- 📊 Calculate ML prediction metrics
+- 📈 Analyze top keywords & sentiment
+
+---
+
+## 🚀 Features
+
+| Feature                        | Description |
+|-------------------------------|-------------|
+| 🔍 Blog Search                | Search blogs by location keyword |
+| 💾 Save Blog                  | Save full blog content as `.txt` |
+| 🌤 Word Cloud Visualization   | Auto-generate cloud of top words |
+| 🧠 ML Metric Calculation      | TP, FP, TN, FN, Precision, Recall |
+| 💬 Sentiment Analysis         | Analyze tone of content (Polarity & Subjectivity) |
+| 🔑 Keyword Search             | Search and highlight specific keywords |
+| 🎨 GUI                        | Intuitive Tkinter-based interface |
 
 
-Concepts Implemented:
+---
 
-•	Web-scrapping from website.
+## 🛠️ Tech Stack
 
-•	Storing Text file.
+- **Python 3.10+**
+- `Tkinter` – for GUI interface
+- `requests` & `BeautifulSoup` – for web scraping
+- `TextBlob` – sentiment analysis
+- `WordCloud` – for visual representation
+- `scikit-learn` & `joblib` – for ML classification
+- `Pillow` – image handling in GUI
 
-•	Calculating Precision, Recall and F-score.
+---
 
-•	Sentiment Analysis.
+## 📦 Installation
 
-•	Generating Word Cloud.
-
-•	Content Mining.
-
-•	Keyword Search from user input.
-ab
+```bash
+git clone https://github.com/yourusername/travel-blog-scraper.git
+cd travel-blog-scraper
+pip install -r requirements.txt
+python main.py
