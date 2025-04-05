@@ -75,10 +75,15 @@ python main.py
 #bash
 
 travel-blog-scraper/
+
 │
+
 ├── main.py                  # Main script for GUI + logic
+
 ├── requirements.txt         # Required packages
+
 ├── README.md                # You're here!
+
 └── saved_blogs/             # Folder for saved blog posts
 
 
